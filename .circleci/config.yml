@@ -12,7 +12,7 @@ variables:
       cd $GIT_FOLDER &&
       gradle build
   - &run-javatestresults
-    name: Copy Service Test Results
+    name: Copy Service Test Results!
     command: |
       set -xu
       mkdir -p $TEST_REPORTS/junit/
